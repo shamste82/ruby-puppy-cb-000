@@ -11,4 +11,7 @@ class Dog
     @@all = []
   end
 
+  def self.all
+    @@all.each { |x|  puts x }
+
 end
