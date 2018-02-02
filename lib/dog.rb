@@ -7,4 +7,7 @@ class Dog
     @name = name
   end
 
+  def clear_all
+    @@all = []
+
 end
