@@ -12,7 +12,7 @@ class Dog
   end
 
   def self.all
-    @@all.each { |x|  puts x }
+    @@all.each { |x|  puts "#{x}" }
   end
 
 end
